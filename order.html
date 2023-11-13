@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nana's Cookies :: Order</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="nanascookies.css">
+        <link rel="icon" href="images/icon.png" type="image/ico">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>Nana's Cookies</h1>
+        </header>
+        <nav>
+                <a href="index.html">Home</a>&nbsp;
+                <a href="products.html">Our Cookies</a>&nbsp;
+                <a href="order.html">Order Now</a>
+        </nav>
+        <main>
+            <form name="order" method="post" id="order" 
+            action="https://webdevbasics.net/scripts/demo.php">
+            <h2>Place Your Order</h2>
+                <label>Name: <input type="text" name="name" id="name" 
+                required="required"></label>
+                <label>Email: <input type="email" name="email" id="email" 
+                required="required"></label>
+                <label>Street Address: <input type="text" name="address" 
+                id="address" required="required"></label><br>
+                <label><input type="checkbox" name="choccy" id="choccy" 
+                value="yes"> Choccy Chips</label><br>
+                <label><input type="checkbox" name="monsta" id="monsta" 
+                value="yes"> Cookie Monsta</label><br>
+                <label><input type="checkbox" name="sugar" id="sugar" 
+                value="yes"> Classic Sugar</label><br>
+                <label><input type="checkbox" name="special" id="special" 
+                value="yes"> Nana's Special</label><br>
+
+                <label><input type="submit" name="submit" id="submit" 
+                value="Place Order"></label>
+                <label><input type="reset"></label>
+            </form>
+        </main>
+        <footer>
+            <small><i>
+                1111 Main St. Kaysville, Utah 84037<br>
+                111-111-1111<br>
+                <a href="mailto:colton.gurr0826@mail.davistech.edu">
+                    colton.gurr0826@mail.davistech.edu
+                </a><br>
+                <br>
+                Copyright &copy; 2023 Nana's Cookies LLC<br>
+            </i></small>
+        </footer>
+        </div>
+    </body>
+</html>

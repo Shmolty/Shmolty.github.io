@@ -1,0 +1,121 @@
+#wrapper {
+    margin-left: auto; margin-right: auto;
+    width: 80%;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4.0em;
+    background-color: black;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #1E1E1E;
+    text-align: center;
+}
+body {
+    background-color: plum;
+    background-image: url(images/background.jpg);
+    color: white;
+    font-family: Tahoma, Arial, sans-serif;
+    text-shadow: 3px 3px 3px #676767;
+}
+nav {
+    background-image: linear-gradient(to right, white, gray);
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0 .5em 0;
+    margin: .5em .5em 3em;
+    text-align: center;
+    text-shadow: none;
+}
+nav a {
+    text-decoration: none;
+    transition: color 2s ease-in;
+}
+nav a:link {
+    color: cyan;
+}
+nav a:visited {
+    color: darkcyan;
+}
+nav a:hover {
+    color: #8c00ff;
+}
+.float-left {
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    background-color: purple;
+    padding: 0 20px 20px;
+    margin: 0 10px 0 0;
+}
+table {
+    padding: 10px;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+}
+caption {
+    font-size: 3.0em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+td, th {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 2.0em;
+    border: 5px solid #000000;
+    color: cyan;
+    background-color: #8a8a8a;
+    padding: 10px;
+}
+form {
+    background-color: darkcyan;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin-left: auto; margin-right: auto;
+}
+form h2 {
+    margin: 5px 0 10px;
+    text-decoration: underline;
+}
+label {
+    display: block;
+    width: 100px;
+}
+input[type="text"] {
+    display: block;
+}
+input[type="email"] {
+    display: block;
+}
+input[type="submit"] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    background-color: #8c00ff;
+    color: #FFFFFF;
+}
+input[type=reset]:hover {
+    background-color: rgb(209, 10, 10);
+    color: #FFFFFF;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 12pt;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:link {
+    color: cyan;
+}
+footer a:visited {
+    color: darkcyan;
+}
+footer a:hover {
+    color: #8c00ff;
+}
